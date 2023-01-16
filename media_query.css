@@ -1,0 +1,314 @@
+
+@media only screen and (max-width:600px){
+    .hamburgerimg img {
+        width: 5vw;
+        
+    }
+    /*home page*/
+    .home_page {
+        width: 100%;
+        height: 40vh;       
+    }       
+    .left_section h1 {
+        font-size: 2rem;
+        font-weight: 800;
+        line-height: 6vh;
+        margin-bottom: 5px;
+    }    
+    .left_section hr {
+        width: 40%;
+        height: 1vh;    
+        margin-top: 1vh;    
+    }    
+    .about_page {
+        margin-top: 5vh;
+        margin-left: 1vh;
+        text-align: left;
+    }    
+    .about_page p {
+        font-weight: 500;
+        font-size: .5rem;
+    }    
+    .right_section {    
+        width: 30%;
+        height: 40vh;       
+    }    
+    .right_section .img1 {
+       
+        margin-top: 60%;
+    }
+
+    /*section2*/
+.section2 {
+    display: flex;
+    flex-direction: column;       
+}
+.left2 {
+    width: 100%;
+}
+.left2 h1 {
+    font-weight: 600;
+    font-size: 5rem;   
+}
+
+.right2 {
+    width: 100%;
+}
+
+.download_section {   
+    width: 100%;
+    margin-left: 0vw;
+    margin-top: 2vh;   
+    }
+.download_section h2 {
+    font-size: 1.5rem;
+}
+.btn {
+    font-size: .5rem;
+    font-weight: bolder;
+    margin: 10px 0px;
+    padding: 5px 10px;
+}         
+.sub_sec_right {
+    width: 100%;
+    height: 29vh;
+    margin-left: 0vw;
+    margin-top: 2vh;
+    padding: 0px 0%;
+}
+
+/*Bolder_text*/
+.bolder_text {
+
+    width: 100%;
+    height: 30vh;
+    position: relative;
+}
+.b_text {
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 35px;
+}
+.para2 {
+    font-size: .4rem;
+        letter-spacing: 1px;
+    width: 70%;
+    line-height: 10px;
+    margin-left: 30vw;
+} 
+/*learmore*/
+.lear_more {
+    background-color: black;
+    width: 100%;
+    height: 290vh;
+    position: relative;
+    padding-top: 12vh;
+    font-family: 'Roboto', sans-serif;
+}
+.bg_color {
+    width: 20%;
+    height: 240vh;
+margin: 0 40%; 
+}
+.flex_images {
+    display: flex;
+    flex-direction: column;
+    width: 100%;       
+    position: absolute;
+    top: 5vh;
+}    
+.flex_images img {
+    width: 80%;
+    padding: 2%;
+ }
+.rigth_corner {
+    width: 100%;
+    padding: 2vw;
+    position: relative;
+    display: block;
+    right: 0%;
+    bottom:0%;
+ }  
+.rigth_corner:hover{
+    transform: scale(1.1);
+}
+.rigth_corner h1 {
+    font-weight: 700;
+}  
+
+
+
+/*slider*/
+.slider {
+    width: 100%;
+    height: 50vh;
+}
+.slider_container {
+    width: 800px;
+    position: relative;
+    left: 0%;
+    top: 2%;
+} 
+.slide_row {
+    
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.slide_col {
+       height: 180px;
+       position: relative;
+    }
+    .user_text img {
+        width: 15vw;
+        border-radius: 50px;
+    }
+    .user_text {
+        text-align: center;
+        width: 350px;
+        border-radius: 10px;
+        font-size: .8rem;
+        padding:10px;
+        line-height: 15px;
+        z-index: 2;
+    }
+    .user_text h2 {
+        margin: 10px 0;
+        font-size: 1rem;
+    }
+
+
+
+
+/*ourTeam*/
+.team {
+    width: 100%;
+    height: 185vh;
+    position: relative;
+}
+.team_bg {
+    width: 100%;
+    height: 15vh;
+    position: absolute;
+    top: 40vh;
+    background-color: #6643b5;
+}  
+.our_team {
+    width: 100%;
+    padding: 20px 10vw;
+}
+.our_team h1 {
+    font-size: 3rem;
+    font-weight: 800;
+}
+.our_team hr {
+    height: 1vh;
+    width: 20%;
+}
+.our_team p {
+    width: 100%;
+    font-size: 1rem;
+}
+  
+.team_memb {
+    display: flex;
+    flex-direction: column;  
+}
+.card {
+    width: 80%;
+    text-align: center;
+    margin-top: 3vh;
+    margin-left: 0vw;
+}
+.card img {
+    width: 65%;
+}
+.card h2 {
+    font-size: 1.5rem;
+}
+.card h4 {
+    font-size: .9rem;
+    font-weight: lighter;
+}
+.icon i {
+    color: #6643b5;
+    font-size: 1.2rem;
+    padding: 15px 10px 0px 0px;
+}
+/*Features*/
+.features{
+    width: 100%;
+    height: 140vh;
+    padding-top:10px ;
+} 
+.bold-text-p1{
+    letter-spacing: .2em;
+    font-size: 1.1rem;
+
+}
+.bold-text-p{
+    font-size: 2.5rem;
+}
+.card-list{
+    flex-direction: column;
+    padding: 20px;
+    color: white;
+}  
+ .card1{
+    width: 80%;
+    background: #7655c5;
+    padding: 10px;
+    margin: 5px 10%;
+}
+.icon1{
+    font-size: 3rem;
+    padding: 10px 0;
+}
+.card1 h2{
+    font-size: 1rem;
+    padding: 10px 0;
+}
+.card1 p,a{
+    padding: 10px 0;
+    font-size: .8rem;
+}
+
+/*Form*/
+.form_section{   
+    height:80vh;
+}
+.form_section h1{
+    font-size: 3rem;
+}
+.form input{
+    background: rgb(37, 37, 37);
+    padding: 1vh 2vw;
+    margin:  3vh 1vw;
+    font-size: 1.4rem;
+    }
+    .textarea{
+        padding: 1vh 2vw;
+        margin:  3vh 1vw;
+        font-size: 1.4rem;
+    }
+    .submit{
+        padding: 1vh 3vw;
+        margin:  2vh 1vw;
+        font-size: 1rem;
+        }  
+ 
+
+   /*Footer*/
+footer{
+     height: 30vh;
+    font-size: 1rem;
+    padding: 5vh 0vw;
+}
+.link{
+    margin-top:8vh;
+}
+.link a{
+ font-size: .9rem;
+}
